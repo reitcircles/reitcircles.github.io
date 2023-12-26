@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:reitcircles.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:reitcircles.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:reitcircles.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "84a72ec45129158d80d5df817d5c6dca18cbc77e34187c3a7428e9c808d01d8f",
+        "y": "e4945534339301ea8bda432c7641bdd7307caa2bf138bec937b846141a9b0265"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:reitcircles.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:reitcircles.github.io#owner"
+  ]
+}
